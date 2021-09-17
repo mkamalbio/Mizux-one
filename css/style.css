@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+
+}
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+}
+.nav-link {
+    font-size: 22px;
+    margin: 0.5rem 1rem;
+}
+.navbar img{
+    width: 50px;
+    height: auto;
+}
+#showcase{
+    background-color: #5BA8B8;
+}
+.primary-overlay {
+    margin-top: 112px;
+}
+/*============ showcase end ============*/
+.btn-primary {
+    color: #fff;
+    background-color: #3292a6;
+    border-color: #3292a6;
+}
+.btn-lg, .btn-group-lg > .btn {
+    border-radius: 0;
+}
+.form-control-lg {
+    border-radius: 0;
+    border: none;
+}
+/*=============== Newsletter section end ==================*/
+.card{
+    border-radius: 0;
+}
+
+/*=================== About/Why section start =================*/
+.section-title{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+}
+
+/*=============== Author section start ==================*/
+#author .card img{
+    width: 100px;
+    height: auto;
+    
+}
+#author .card:hover{
+    background-color:#3292a6;
+    color: white;
+}
+#author.card i{
+    /*font-size: 50px;*/
+    color: white;
+}
+/*=============== Footer start ===============*/
+footer{
+
+}
+
+
+
+@media(max-width:768px){
+    #showcase.display-2 {
+         font-size: 0;
+    }
+}
